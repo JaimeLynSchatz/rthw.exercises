@@ -1,0 +1,9 @@
+This is a test of the Jaime can type program.
+This is only a test.
+Were this an actual example of Jaime typing, you would
+see something useful here instead of this mumbo-jumbo
+ipsem stuff.
+
+Gotta search that later. Wouldn't it be fun to take the top
+tweets and turn them into an ipsem generator? How about building 
+a dictionary with tweets? What would that say about human language?
