@@ -5,7 +5,7 @@ truth_test =
 	("test" == "test") == true
 	((1 == 1) or (2 != 0)) == true
 	(true and (1 == 1)) == true
-	(false and (0 != 0)) == true
+	(false and (0 != 0)) == false
 	(true or (1 == 1)) == true
 	("test" == "testing") == false
 	((1 != 0) and (2 == 1)) == false
@@ -17,7 +17,7 @@ truth_test =
 	(not ((1 != 10) or (3 == 4))) == false
 	(not (("testing" == "testing") and ("Zed" == "Cool Guy"))) == true
 	((1 == 1) and not ("testing" == 1 or 1 == 0 )) == true
-	(("chunky" == "bacon") and not ((3 == 4) or (3 == 3))) == true
+	(("chunky" == "bacon") and not ((3 == 4) or (3 == 3))) == false
 	((3 == 3) and not ("testing" == "testing" or "Ruby" == "Fun")) == false
 
 puts
