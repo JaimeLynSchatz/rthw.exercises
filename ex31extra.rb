@@ -55,5 +55,5 @@ if bees >= 1 and bees <= 4
 	puts "Wake up, Mental! Bees are extinct!"
 else
 	puts "You won!"
-	
+		
 puts
