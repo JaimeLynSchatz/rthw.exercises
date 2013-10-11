@@ -10,5 +10,7 @@ print "\nThe 5th animal is at index 4, the whale? ", animals[4] == "whale"
 print "\nThe animal at index 2 is the peacock? ", animals[2] == "peacock"
 print "\nThe 6th animal is at index 5, the platypus? ", animals[5] == "platypus"
 print "\nThe animal at index 4 is the whale? ", animals[4] == "whale"
-
+puts
+puts "The first animal is a #{animals.first}"
+puts "The last animal is a #{animals.last}"
 puts 
