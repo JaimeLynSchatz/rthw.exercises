@@ -10,7 +10,7 @@ def island_question()
 	prompt()
 	food = gets.chomp()
 	if food == 'sand'
-		die("Ewwwww..... you won't survive on that!")
+		puts "Ewwwww..... you won't survive on that!"
 	elsif food == 'seaweed'
 		puts "Gross, but healthy."
 	else
@@ -32,7 +32,7 @@ def thailand_question()
 end
 
 def present_question()
-	puts "If you mom and dad were kind of poor and they bought you two presents,"
+	puts "If your mom and dad were kind of poor and they bought you two presents,"
 	puts "which one would you want the most?"
 	puts "the one that's stupid but you wanted it"
 	puts "or the one that is cheap but can be useful?"
@@ -91,6 +91,7 @@ if response == 'Y' or response == 'y'
 	puts "Great! I have some questions for you..."
 else
 	puts "Oh, that's too bad. Luckily, I have some questions for you anyway!"
+end
 
 island_question()
 thailand_question()
