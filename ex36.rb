@@ -1,3 +1,5 @@
+# This little program was written with the creative assistance of my seven-year-old.
+
 def prompt()
 	print "> "
 end
@@ -13,6 +15,7 @@ def island_question()
 		puts "Gross, but healthy."
 	else
 		puts "Yeah, that's not on the menu. Try again."
+		island_question()
 	end
 end
 
@@ -24,6 +27,7 @@ def thailand_question()
 		puts "Yes! You got it!"
 	else
 		puts "Awww... keep studying!"
+		thailand_question()
 	end
 end
 
@@ -40,6 +44,7 @@ def present_question()
 		puts "Nice job! Keep it up!!"
 	else
 		puts "Yeah, that's not one of your choices. Try again."
+		present_question()
 	end
 end
 
@@ -57,6 +62,7 @@ def cupcake_question()
 		puts "Okay... you got some protein. But grosser than okay."
 	else
 		puts "Yeah, that's not one of the choices. Try again."
+		cupcake_question()
 	end
 end
 
@@ -74,8 +80,17 @@ def sleep_question()
 		puts "Um... you have to sleep sometime!!"
 	else
 		puts "Yeah, that's not not one of the choices. Try again."
+		sleep_question()
 	end
 end
+
+puts "Would you like to play a game? Y or N"
+prompt()
+response = gets.chomp()
+if response == 'Y' or response == 'y'
+	puts "Great! I have some questions for you..."
+else
+	puts "Oh, that's too bad. Luckily, I have some questions for you anyway!"
 
 island_question()
 thailand_question()
