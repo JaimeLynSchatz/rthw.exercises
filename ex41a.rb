@@ -32,3 +32,5 @@ word_drills.each do |key, value|
 	response = gets.chomp()
 	puts 
 end
+
+puts "Very nice. Press enter then arrow up at the command line to run again."
