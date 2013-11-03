@@ -7,9 +7,7 @@ class MyUnitTests < Test::Unit::TestCase
 		gold = Room.new("GoldRoom", 
 						"""This room has gold in it you can grab. There's a door to the north.""")
 		assert_equal(gold.name, "GoldRoom")
-		asset_equal(gold.paths, {})
-	end
-	
+		assert_equal(gold.paths, {})
 	end
 	
 	def test_room_paths()
